@@ -1,0 +1,43 @@
+// Common
+$cmn-border-radius: 10px;
+$cmn-shadow-element: 0 0 6px rgba(#22C55E , 0.2);
+$cmn-shadow-block: 0 0 10px rgba(#c6e2d0, 0.8);
+$cmn-shadow-violet: 0 0 10px rgba(#A855F7, 0.2);
+$cmn-shadow-green: 0 0 10px rgba(#22C55E, 0.2);
+
+// Transitions
+$trn-slow-out: 0.4s ease-out;
+$trn-slow-in: 0.4s ease-in;
+$trn-normal-out: 0.2s ease-out;
+$trn-normal-in: 0.2s ease-in;
+$trn-fast-out: 0.1s ease-out;
+$trn-fast-in: 0.1s ease-in;
+
+// Font-sizes
+$fsz-h1: 28px;
+$fsz-h2: 22px;
+$fsz-h3: 18px;
+$fsz-text: 20px;
+$fsz-tablet-h1: 25px;
+$fsz-tablet-text: 18px;
+
+// Colors
+$clr-primary: var(--color-primary);
+$clr-secondary: var(--color-secondary);
+$clr-background: var(--color-background);
+$clr-inactive: var(--color-text-inactive);
+$clr-text: #64748B;
+$clr-links: #9747FF;
+$clr-border: #C6E2D0;
+
+// Breakpoints
+$bpt-sm: 360px;
+$bpt-md: 480px;
+$bpt-lg: 1024px;
+$bpt-xl: 1280px;
+$bpt-xxl: 1536px;
+
+// Width
+$wdth-desktop: 1214px;
+$wdth-tablet: 768px;
+$wdth-phone: 400px;
