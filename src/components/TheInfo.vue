@@ -5,27 +5,27 @@ import TheInterfaceItem from '~/components/TheInterfaceItem.vue'
 const itemsList = [
   {
     id: 1,
-    url: '../assets/icons/com-port-icon.svg',
+    url: new URL('../assets/icons/com-port-icon.svg', import.meta.url).href,
     name: 'COM-Port',
   },
   {
     id: 2,
-    url: '../assets/icons/wifi-icon.svg',
+    url: new URL('../assets/icons/wifi-icon.svg', import.meta.url).href,
     name: 'Wi-Fi',
   },
   {
     id: 3,
-    url: '../assets/icons/ethernet-icon.svg',
+    url: new URL('../assets/icons/ethernet-icon.svg', import.meta.url).href,
     name: 'Ethernet (опционально)',
   },
   {
     id: 4,
-    url: '../assets/icons/4G-icon.svg',
+    url: new URL('../assets/icons/4G-icon.svg', import.meta.url).href,
     name: '4G (опционально)',
   },
   {
     id: 5,
-    url: '../assets/icons/lora-icon.svg',
+    url: new URL('../assets/icons/lora-icon.svg', import.meta.url).href,
     name: 'LoRa (опционально)',
   },
 ]

@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-import { ref, watch, watchEffect } from 'vue'
 import TheDescriptionItem from '~/components/TheDescriptionItem.vue'
 
 const advantages = Array.from({ length: 5 }).map((_, i) => ({
