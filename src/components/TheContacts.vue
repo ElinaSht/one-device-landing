@@ -45,15 +45,15 @@ watch(rootRef, () => {
     <div class="main">
       <div class="contacts-list">
         <div class="contact">
-          <img src="~/assets/icons/map-icon.svg?url">
+          <img src="src/assets/icons/map-icon.svg?url">
           <span>г. Москва, 4-й Вешняковский пр. 4, стр. 3</span>
         </div>
         <div class="contact">
-          <img src="~/assets/icons/phone-icon.svg?url">
+          <img src="src/assets/icons/phone-icon.svg?url">
           <span>8-800-2000-600</span>
         </div>
         <div class="contact">
-          <img src="~/assets/icons/at-icon.svg?url">
+          <img src="src/assets/icons/at-icon.svg?url">
           <span>mail@mail.ru</span>
         </div>
       </div>

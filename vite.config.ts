@@ -4,8 +4,6 @@ import { defineConfig } from 'vite';
 import SvgLoader from 'vite-svg-loader';
 
 export default defineConfig({
-  base: './',
-
   resolve: {
     alias: {
       '~/': `${path.resolve(__dirname, 'src')}/`,
