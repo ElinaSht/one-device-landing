@@ -1,10 +1,12 @@
 <script lang="ts" setup>
+import LogoSrc from '~/assets/logo/one-device-logo.svg?url'
+import MenuSrc from '~/assets/icons/menu-icon.svg?url'
 </script>
 
 <template>
   <div class="header-component">
     <div class="logo">
-      <img class="logo-image" src="src/assets/logo/one-device-logo.svg?url">
+      <img class="logo-image" :src="LogoSrc">
     </div>
 
     <div class="menu-list">
@@ -20,7 +22,7 @@
     </div>
 
     <div class="menu-icon">
-      <img class="icon" src="src/assets/icons/menu-icon.svg?url">
+      <img class="icon" :src="MenuSrc">
     </div>
   </div>
 </template>
